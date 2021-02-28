@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+     <style>
+
+        body{
+            text-align:center;
+        }
+
+
+        div {
+            padding-top: 2%;
+          }
+
+       .fieldset{
+          max-width:50%;
+          width:30%;
+          text-align:center;
+          margin:auto;
+          padding-bottom:23px;
+        }
+
+        .Label {
+            display: block;
+            margin-bottom: 1%;
+        }
+
+
+      #survey-form{
+
+       width:80%;
+       margin:auto;
+       color:#222831;
+}
+
+    </style>
+</head>
+<body>
+     <header id="Regform">
+
+         <h1 id="title"> Contact_us: </h1>
+
+    <p id="description">Send us an email if you would like to contact us. </p>
+
+    </header>
+
+    <form id="form1" method="get" action="">
+
+        <div>
+        <Label for="LblName1" Class="Label"> Enter Name : </Label>
+        <input ID="LblName1" Class="tbx_lg" type="text" placeholder="name" MaxLength="15" required>
+        </div>
+
+         <div>
+        <Label for="LblMail1"Class="Label"> Enter Mail : </Label>
+        <input ID="LblMail1" Class="tbx_lg" type="email" placeholder="Your Mail" required>
+        </div>
+
+<div class="fieldset">
+
+          <fieldset>
+
+              <legend>
+                do you like our site ?
+              </legend>
+
+              <label> yes😀
+              <input type="radio" name="like_site">
+              </label><br>
+
+
+              <label> no!😥
+                    <input type="radio" name="like_site">
+              </label>
+                </fieldset>
+
+            <fieldset style="margin-top:15px;">
+
+              <legend >Topic you like more :</legend>
+
+             <label>
+
+              <input type="radio" name="suggestion" value="Phones Brands History">
+               Phone Brands History
+              </label><br>
+
+              <label>
+              <input type="radio" name="suggestion" value="Phone Tec Future ">
+               Phone Tech Future
+              </label>
+
+            </fieldset>
+         </div>
+
+           <div class="message">
+           <label for="textmessage"> if you have any comments: </label><br><br>
+            <textarea id="textmessage"
+            rows="5"
+            cols="60"
+            placeholder="your comments here"
+            >
+
+          </textarea>
+
+           </div>
+
+        <div>
+
+               <button ID="Rg_btn1" type="submit">Submit</button>
+
+           </div>
+
+
+
+
+    </form>
+</body>
+</html>
